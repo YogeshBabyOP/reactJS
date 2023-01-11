@@ -21,7 +21,9 @@ function App() {
   return (
     <>
         {/* Navbar */}
-        <Navbar title="Text Format" aboutus = "About" aboutHomepage = "Home" mode={mode} toggleMode = {toggleMode}/>
+        {/*<Navbar title="Text Format" aboutus = "About" aboutHomepage = "Home" mode={mode} toggleMode = {toggleMode}/> */}
+
+        <Navbar title="Text Format" mode={mode} toggleMode = {toggleMode}/>
 
         {/* TextForm */}
         <div className="container my-3">
